@@ -1,274 +1,252 @@
-&lt;!-- ══════════════════════════════════════════════════════════════════════════════ --&gt;
-&lt;!--                     UDAY — BACKEND ENGINEER PROFILE README                     --&gt;
-&lt;!-- ══════════════════════════════════════════════════════════════════════════════ --&gt;
+<!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
+<div align="center">
 
-&lt;div align=&quot;center&quot;&gt;
+  <!-- Dynamic Animated Cyber Waving Banner (Twinkling Stars + Gradient Wave) -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24,30&height=230&section=header&text=BACKEND%20ARCHITECT&fontSize=62&fontColor=ffffff&fontAlignY=38&animation=twinkling&desc=Distributed%20Systems%20%E2%80%A2%20Spring%20Boot%20%E2%80%A2%20Apache%20Kafka%20%E2%80%A2%20Microservices&descSize=19&descAlignY=62&stroke=00f2fe&strokeWidth=1" width="100%" alt="Backend Architect Header" />
 
-&lt;!-- Animated Venom Hero Banner --&gt;
-&lt;img src=&quot;https://capsule-render.vercel.app/api?type=venom&amp;color=0:070913,35:0f172a,70:1e3a8a,100:00f2fe&amp;height=300&amp;section=header&amp;text=UDAY%20%E2%80%A2%20BACKEND%20ENGINEER&amp;fontSize=50&amp;fontColor=ffffff&amp;fontAlignY=38&amp;stroke=00f2fe&amp;strokeWidth=1.2&amp;animation=twinkling&amp;desc=%E2%9A%A1%20Distributed%20Systems%20%C2%B7%20Event-Driven%20Microservices%20%C2%B7%20Cloud-Native%20Java&amp;descSize=19&amp;descAlignY=60&quot; width=&quot;100%&quot; alt=&quot;Uday — Backend Engineer Banner&quot; /&gt;
+  <br/>
 
-&lt;!-- Animated Typing SVG Headline --&gt;
-&lt;a href=&quot;https://github.com/UDAY1810&quot;&gt;
-  &lt;img src=&quot;https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=22&amp;duration=2800&amp;pause=900&amp;color=00F2FE&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=%E2%98%95+Architecting+resilient%2C+high-throughput+Java+21+%26+Spring+Boot+backends;%E2%9A%A1+Event-driven+choreography+%26+real-time+streaming+with+Apache+Kafka;%F0%9F%A7%AD+Spring+Cloud+Eureka+%C2%B7+Reactive+API+Gateway+%C2%B7+Config+Server+%C2%B7+OpenFeign;%F0%9F%9B%A1%EF%B8%8F+Zero-trust+JWT+security+%C2%B7+Resilience4j+Circuit+Breakers+%C2%B7+Zipkin+Tracing;%F0%9F%8D%94+Currently+engineering+%E2%86%92+QuickBite+(9-Microservice+Food+Delivery+Platform)&quot; alt=&quot;Typing SVG&quot; /&gt;
-&lt;/a&gt;
+  <!-- Multi-line Dynamic Terminal Typing Animation -->
+  <a href="https://github.com/UDAY1810">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=23&duration=2800&pause=900&color=00F2FE&center=true&vCenter=true&multiline=true&width=780&height=110&lines=%E2%9A%A1+Initializing+Distributed+Core+Daemon...;%E2%98%95+Java+21+%2B+Spring+Boot+3.x+Microservices+Architect;%F0%9F%93%A1+Event-Driven+Pipelining+with+Apache+Kafka;%F0%9F%9B%A1%EF%B8%8F+Zero-Downtime+Resilience+%E2%80%A2+JWT+Auth+%E2%80%A2+Zipkin+Tracing;%F0%9F%8D%94+Currently+Shipping+%E2%86%92+QuickBite+Platform" alt="Typing animation" />
+  </a>
 
-<br/>
+  <!-- Animated Real-time Status Badges & Quick Links -->
+  <p align="center">
+    <a href="mailto:mrdubey7717@gmail.com">
+      <img src="https://img.shields.io/badge/Direct_Dispatch-mrdubey7717%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+    <a href="https://linkedin.com/in/" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="https://instagram.com/" target="_blank">
+      <img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+    </a>
+    <img src="https://komarev.com/ghpvc/?username=UDAY1810&style=for-the-badge&color=00f2fe&label=SYSTEM_PINGS" alt="Profile views" />
+  </p>
 
-&lt;!-- Status &amp; Contact Badges --&gt;
-&lt;p align=&quot;center&quot;&gt;
-  &lt;a href=&quot;mailto:mrdubey7717@gmail.com&quot;&gt;
-    &lt;img src=&quot;https://img.shields.io/badge/Gmail-mrdubey7717%40gmail.com-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white&amp;labelColor=161b22&quot; alt=&quot;Email&quot; /&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;https://github.com/UDAY1810&quot;&gt;
-    &lt;img src=&quot;https://img.shields.io/badge/GitHub-UDAY1810-00F2FE?style=for-the-badge&amp;logo=github&amp;logoColor=white&amp;labelColor=161b22&quot; alt=&quot;GitHub&quot; /&gt;
-  &lt;/a&gt;
-  &lt;!-- Update YOUR-LINKEDIN-ID and YOUR-INSTAGRAM-ID below with your handles --&gt;
-  &lt;a href=&quot;https://www.linkedin.com/in/YOUR-LINKEDIN-ID/&quot;&gt;
-    &lt;img src=&quot;https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white&amp;labelColor=161b22&quot; alt=&quot;LinkedIn&quot; /&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;https://www.instagram.com/YOUR-INSTAGRAM-ID/&quot;&gt;
-    &lt;img src=&quot;https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&amp;logo=instagram&amp;logoColor=white&amp;labelColor=161b22&quot; alt=&quot;Instagram&quot; /&gt;
-  &lt;/a&gt;
-  &lt;img src=&quot;https://komarev.com/ghpvc/?username=UDAY1810&amp;style=for-the-badge&amp;color=00f2fe&amp;labelColor=161b22&amp;label=PROFILE+VIEWS&quot; alt=&quot;Profile views&quot; /&gt;
-&lt;/p&gt;
+</div>
 
-&lt;!-- Quick System Telemetry Pills --&gt;
-&lt;p align=&quot;center&quot;&gt;
-  &lt;img src=&quot;https://img.shields.io/badge/STATUS-BUILDING_DISTRIBUTED_SYSTEMS-10B981?style=flat-square&amp;logo=statuspage&amp;logoColor=white&amp;labelColor=0d1117&quot; alt=&quot;Status&quot; /&gt;
-  &lt;img src=&quot;https://img.shields.io/badge/PRIMARY_RUNTIME-JAVA_21_LTS-ED8B00?style=flat-square&amp;logo=openjdk&amp;logoColor=white&amp;labelColor=0d1117&quot; alt=&quot;Java 21&quot; /&gt;
-  &lt;img src=&quot;https://img.shields.io/badge/ARCHITECTURE-MICROSERVICES_%26_KAFKA-38BDF8?style=flat-square&amp;logo=apachekafka&amp;logoColor=white&amp;labelColor=0d1117&quot; alt=&quot;Architecture&quot; /&gt;
-  &lt;img src=&quot;https://img.shields.io/badge/OPEN_TO-BACKEND_%2F_SDE_ROLES-A855F7?style=flat-square&amp;logo=rocket&amp;logoColor=white&amp;labelColor=0d1117&quot; alt=&quot;Open To Roles&quot; /&gt;
-&lt;/p&gt;
+<!-- Animated Laser Gradient Divider -->
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" alt="animated divider" />
 
-&lt;/div&gt;
+<!-- ═══════════════════════════ SYSTEM TELEMETRY ═══════════════════════════ -->
+### 🖥️ `systemctl status backend-core.service`
 
-&lt;img src=&quot;https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif&quot; width=&quot;100%&quot; alt=&quot;divider&quot; /&gt;
-
-&lt;!-- ═══════════════════════════ SYSTEM MANIFEST &amp; ABOUT ═══════════════════════════ --&gt;
-
-## &lt;img src=&quot;https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif&quot; width=&quot;28&quot; alt=&quot;wave&quot; /&gt; `whoami` — Engineering Profile & Architecture Philosophy
-
-&lt;table&gt;
-&lt;tr&gt;
-&lt;td width=&quot;58%&quot; valign=&quot;top&quot;&gt;
-
-```yaml
-apiVersion: engineering.uday.dev/v1
-kind: BackendEngineer
-metadata:
-  handle: UDAY1810
-  role: "Backend & Distributed Systems Engineer"
-  motto: "Make it work, make it right, make it fast."
-spec:
-  coreStack:
-    languages: ["Java 21", "TypeScript", "SQL"]
-    frameworks: ["Spring Boot 3", "Spring Cloud", "Spring Security", "JPA / Hibernate"]
-    messaging: ["Apache Kafka", "WebSocket (STOMP)"]
-    databases: ["PostgreSQL", "Flyway Migrations", "H2"]
-  reliabilityAndScale:
-    gateway: "Spring Cloud Gateway (Reactive WebFlux + JWT)"
-    discovery: "Netflix Eureka + Spring Cloud Config Server"
-    resilience: "OpenFeign + Resilience4j Circuit Breakers"
-    observability: ["Micrometer Tracing", "Zipkin", "Spring Actuator"]
-  currentMission:
-    flagship: "QuickBite — 9-Microservice Food Delivery Platform"
-    exploring: ["Kubernetes", "High-Scale System Design", "Distributed Sagas"]
+```bash
+● backend-core.service - High-Throughput Distributed Microservices Engine
+     Loaded: loaded (/etc/systemd/system/backend-core.service; enabled; vendor preset: enabled)
+     Active: active (running) • High Availability (SLA 99.99%)
+   Main PID: 2026 (java -XX:+UseG1GC -jar microservices-runtime.jar)
+   Runtimes: Java 21 (Loom Virtual Threads) • Spring Boot 3.x • Spring Cloud
+   Pipeline: Apache Kafka Event Streams • PostgreSQL 16 • Docker Compose
+   Security: Stateless JWT Bearer • Spring Security • Role-Based Access Control
+   CGroup: /system.slice/backend-core.service
+           ├─ 01 [api-gateway]          → Reactive Edge Routing (:8080) & JWT Filters
+           ├─ 02 [discovery-server]     → Netflix Eureka Service Registry & Health Pings
+           ├─ 03 [config-server]        → Centralized Git-backed Cloud Configuration
+           ├─ 04 [order-service]        → State Machine & Distributed Saga Flow
+           ├─ 05 [payment-service]      → Razorpay Client SDK & Webhook Verification
+           ├─ 06 [restaurant-service]   → Menu Catalogs & Resilience4j Circuit Breakers
+           ├─ 07 [delivery-service]     → Real-Time STOMP WebSocket Live Dispatch
+           └─ 08 [notification-service] → Async Kafka Consumer & Email Dispatcher
 ```
 
-&lt;/td&gt;
-&lt;td width=&quot;42%&quot; valign=&quot;top&quot;&gt;
+<!-- Animated Laser Gradient Divider -->
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" alt="animated divider" />
 
-### ⚡ What I Bring to the Table
+<!-- ═══════════════════════════ ARCHITECTURE PHILOSOPHY ═══════════════════════════ -->
+### ⚡ Architecture & Engineering Principles
 
-- **🏗️ Microservices from the Ground Up**
-  Designing loosely coupled services with **Spring Boot**, **Eureka**, centralized **Config Server**, and reactive **API Gateways**.
-- **🔄 Event-Driven Choreography**
-  Decoupling critical workflows (orders, payments, notifications, live dispatch) over **Apache Kafka** and **STOMP WebSockets**.
-- **🛡️ Production-Grade Fault Tolerance**
-  Protecting inter-service boundaries with **Resilience4j** circuit breakers, **JWT** edge security, and end-to-end **Zipkin** distributed tracing.
-- **🗄️ Clean Data & Verified Code**
-  Versioned schema evolution with **PostgreSQL + Flyway**, backed by unit and integration test suites (**JUnit 5**, **Mockito**).
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🛡️ Distributed Resilience & Scalability</h4>
+      <ul>
+        <li><b>Decoupled Microservices:</b> Domain-Driven Design (DDD) with clean bounded contexts.</li>
+        <li><b>Fault Tolerance:</b> Circuit breakers, rate-limiting, and fallback paths via <b>Resilience4j</b>.</li>
+        <li><b>Event-Driven Asynchrony:</b> Decoupling high-volume workflows with <b>Apache Kafka</b> event topics.</li>
+        <li><b>Centralized Observability:</b> Distributed tracing with <b>Micrometer + Zipkin</b> and Actuator health probes.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🚀 Data Integrity & API Performance</h4>
+      <ul>
+        <li><b>ACID & Migrations:</b> Deterministic database versioning with <b>Flyway</b> on PostgreSQL.</li>
+        <li><b>Reactive Edge Gateway:</b> Non-blocking Spring Cloud Gateway with low-latency WebFlux routing.</li>
+        <li><b>Real-Time Push:</b> Sub-second delivery tracking powered by <b>WebSocket (STOMP)</b>.</li>
+        <li><b>Robust Test Pyramid:</b> Automated unit, integration, and controller testing with <b>JUnit 5 & Mockito</b>.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
+<!-- Animated Laser Gradient Divider -->
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" alt="animated divider" />
 
-&lt;img src=&quot;https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif&quot; width=&quot;100%&quot; alt=&quot;divider&quot; /&gt;
+<!-- ═══════════════════════════ TECH ARSENAL ═══════════════════════════ -->
+### 🛠️ The Tech Arsenal
 
-&lt;!-- ═══════════════════════════ TECH ARSENAL ═══════════════════════════ --&gt;
+<div align="center">
 
-## 🛠️ Tech Arsenal & Engineering Stack
+#### 🚀 Core Languages & Runtimes
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=java,ts,js,python,bash&theme=dark" alt="Languages" />
+</a>
 
-&lt;div align=&quot;center&quot;&gt;
+<br/><br/>
 
-&lt;img src=&quot;https://skillicons.dev/icons?i=java,spring,hibernate,kafka,postgres,docker,maven,ts,angular,git,github,postman,idea,vscode&amp;theme=dark&amp;perline=7&quot; alt=&quot;Tech Stack Icons&quot; /&gt;
-
-&lt;/div&gt;
-
+#### 🏛️ Frameworks & Server-Side Ecosystem
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=spring,hibernate,nodejs,express,angular&theme=dark" alt="Frameworks" />
+</a>
 <br/>
+<p align="center">
+  <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot 3" />
+  <img src="https://img.shields.io/badge/Spring_Cloud-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring Cloud" />
+  <img src="https://img.shields.io/badge/Eureka-Discovery-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Eureka" />
+  <img src="https://img.shields.io/badge/Spring_Security-JWT-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white" alt="Spring Security" />
+</p>
 
-| Domain | Core Technologies & Capabilities |
-| :--- | :--- |
-| **☕ Languages & Core** |       |
-| **🌱 Spring Ecosystem** |      |
-| **🧭 Distributed & Cloud** |     |
-| **⚡ Messaging & Realtime** |    |
-| **🗄️ Data, DevOps & QA** |       |
+#### 🗄️ Persistence, Streaming & Messaging
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=kafka,postgres,mysql,mongodb,redis&theme=dark" alt="Databases and Streaming" />
+</a>
+<br/>
+<p align="center">
+  <img src="https://img.shields.io/badge/Flyway-DB_Migrations-CC0200?style=flat-square&logo=flyway&logoColor=white" alt="Flyway" />
+  <img src="https://img.shields.io/badge/OpenFeign-Declarative_REST-005571?style=flat-square&logo=spring&logoColor=white" alt="OpenFeign" />
+  <img src="https://img.shields.io/badge/Resilience4j-Circuit_Breaker-FF6F00?style=flat-square" alt="Resilience4j" />
+  <img src="https://img.shields.io/badge/Zipkin-Distributed_Tracing-FE7139?style=flat-square" alt="Zipkin" />
+</p>
 
-&lt;img src=&quot;https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif&quot; width=&quot;100%&quot; alt=&quot;divider&quot; /&gt;
+#### 🚢 DevOps, Containerization & Automated Testing
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,postman,maven,idea,vscode&theme=dark" alt="DevOps and Tools" />
+</a>
+<br/>
+<p align="center">
+  <img src="https://img.shields.io/badge/JUnit_5-25A162?style=flat-square&logo=junit5&logoColor=white" alt="JUnit 5" />
+  <img src="https://img.shields.io/badge/Mockito-48C9B0?style=flat-square&logo=testinglibrary&logoColor=white" alt="Mockito" />
+  <img src="https://img.shields.io/badge/Razorpay_Client_SDK-0C2451?style=flat-square&logo=razorpay&logoColor=white" alt="Razorpay" />
+  <img src="https://img.shields.io/badge/WebSocket-STOMP-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="WebSocket" />
+</p>
 
-&lt;!-- ═══════════════════════════ FLAGSHIP CASE STUDY ═══════════════════════════ --&gt;
+</div>
 
-## 🍔 Flagship Architecture Spotlight — [QuickBite](https://github.com/UDAY1810/quickbite)
+<!-- Animated Laser Gradient Divider -->
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" alt="animated divider" />
 
-&lt;div align=&quot;center&quot;&gt;
+<!-- ═══════════════════════════ FEATURED PROJECT ═══════════════════════════ -->
+### 🍔 Flagship Architecture: [QuickBite Microservices Platform](https://github.com/UDAY1810/quickbite)
 
-### **Cloud-Native Food Ordering & Real-Time Delivery Platform**
-*Engineered as a 9-microservice Spring Boot ecosystem paired with an Angular 21 SPA, Apache Kafka event backbone, and full observability.*
+<div align="center">
 
-[](https://github.com/UDAY1810/quickbite)
+> **An enterprise-grade, event-driven food ordering & delivery ecosystem powered by Spring Boot 3, Spring Cloud, Apache Kafka, and Docker.**
 
+[![Explore Repository](https://img.shields.io/badge/Explore_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/UDAY1810/quickbite)
+![Java 21](https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot 3](https://img.shields.io/badge/Spring_Boot-3.x-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Kafka](https://img.shields.io/badge/Apache_Kafka-Streams-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Orchestrated-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-
-
-
-
-&lt;/div&gt;
-
-### 🗺️ End-to-End Distributed System Topology
+</div>
 
 ```mermaid
-flowchart TB
-    subgraph Client["🌐 Client Layer"]
-        UI["🖥️ Angular 21 SPA<br/>(Reactive UI & Live Tracking)"]
+flowchart TD
+    subgraph Clients["🌐 Frontend & Clients"]
+        UI["🖥️ Angular 21 SPA Client"]
     end
 
-    subgraph Edge["🛡️ Edge & Control Plane"]
-        GW["⚡ Spring Cloud Gateway<br/>(WebFlux · JWT Auth Filter · Routing)"]
-        EUR["🧭 Netflix Eureka<br/>(Service Registry)"]
-        CFG["⚙️ Config Server<br/>(Centralized Profiles)"]
-        ZIP["🔍 Micrometer + Zipkin<br/>(Distributed Trace Spans)"]
+    subgraph Edge["🛡️ Edge & Gateway Layer"]
+        GW["⚡ Spring Cloud Gateway (:8080)<br/>• JWT Validation • Reactive Routing"]
     end
 
-    subgraph Core["🧩 Domain Microservices (Spring Boot + Java 21)"]
-        USR["👤 User Service<br/>(Auth · Roles · Profiles)"]
-        RES["🍽️ Restaurant Service<br/>(Menus · Availability)"]
-        ORD["🧾 Order Service<br/>(Lifecycle · Feign + Resilience4j)"]
-        PAY["💳 Payment Service<br/>(Razorpay Checkout & Webhooks)"]
-        DEL["🛵 Delivery Service<br/>(Rider Dispatch · STOMP WebSocket)"]
-        NOT["📧 Notification Service<br/>(Async Alerts & Emails)"]
+    subgraph Core["⚙️ Cloud Infrastructure"]
+        EUR["🧭 Netflix Eureka Registry"]
+        CFG["📁 Spring Cloud Config Server"]
     end
 
-    subgraph Backbone["⚡ Event & Persistence Layer"]
-        K[("🔥 Apache Kafka<br/>(Order & Payment Event Topics)")]
-        DB[("🐘 PostgreSQL + Flyway<br/>(Database-per-Service Schemas)")]
+    subgraph Services["🚀 Microservices Mesh"]
+        USR["👤 User Service<br/>(Auth, BCrypt, JWT)"]
+        ORD["🧾 Order Service<br/>(State Machine / Saga)"]
+        RES["🍽️ Restaurant Service<br/>(Catalog & Menus)"]
+        PAY["💳 Payment Service<br/>(Razorpay SDK & Webhooks)"]
+        DEL["🛵 Delivery Service<br/>(Dispatch & GPS Lifecycle)"]
+        NOT["📧 Notification Service<br/>(Email / Alerts)"]
     end
 
-    UI ==>|HTTPS REST + Bearer JWT| GW
-    UI <-.->|Live STOMP / WebSocket| DEL
+    subgraph EventMesh["⚡ Event Bus & Data Store"]
+        KAFKA[("⚡ Apache Kafka Topics<br/>order-events • payment-events • delivery-events")]
+        DB[("🐘 PostgreSQL 16 Instances<br/>(Flyway Migrations)")]
+    end
 
-    GW --> USR & RES & ORD & PAY & DEL
-    ORD -->|Sync OpenFeign + Circuit Breaker| RES
+    UI -->|HTTPS / REST| GW
+    UI <-.->|STOMP WebSocket Live Tracking| DEL
 
-    ORD -.->|Publish OrderCreated| K
-    PAY -.->|Publish PaymentVerified| K
-    K -.->|Consume Events| DEL & NOT & ORD
+    GW --> USR
+    GW --> ORD
+    GW --> RES
+    GW --> PAY
+    GW --> DEL
+
+    ORD -->|OpenFeign + Resilience4j| RES
+
+    ORD -. Publish Events .-> KAFKA
+    PAY -. Publish Events .-> KAFKA
+    KAFKA -. Consume Events .-> DEL
+    KAFKA -. Consume Events .-> NOT
 
     USR & RES & ORD & PAY & DEL --> DB
-    Core -.->|Register & Heartbeat| EUR
-    Core -.->|Pull Config| CFG
-    Core -.->|Export Spans| ZIP
+    Services -. Heartbeat .-> EUR
+    Services -. Central Config .-> CFG
 
-    classDef client fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#fff
-    classDef edge fill:#1e1b4b,stroke:#00f2fe,stroke-width:2px,color:#fff
-    classDef domain fill:#052e16,stroke:#4ade80,stroke-width:1.5px,color:#fff
-    classDef infra fill:#27120b,stroke:#fb923c,stroke-width:2px,color:#fff
-
-    class UI client
-    class GW,EUR,CFG,ZIP edge
-    class USR,RES,ORD,PAY,DEL,NOT domain
-    class K,DB infra
+    classDef edge fill:#0f172a,stroke:#00f2fe,stroke-width:2px,color:#fff;
+    classDef svc fill:#1e1e2e,stroke:#6DB33F,stroke-width:2px,color:#fff;
+    classDef event fill:#181825,stroke:#ff5ca8,stroke-width:2px,color:#fff;
+    class Clients,Edge edge;
+    class Services svc;
+    class EventMesh,Core event;
 ```
 
-### 🔬 Architectural Pillars Inside QuickBite
+<!-- Animated Laser Gradient Divider -->
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" alt="animated divider" />
 
-| Pillar | Implementation Details |
-| :--- | :--- |
-| **🛡️ Edge Security & Reactive Routing** | **Spring Cloud Gateway (WebFlux)** acts as the single entry point, validating **JWT** signatures and propagating identity claims downstream before routing traffic. |
-| **🧭 Dynamic Discovery & Externalized Config** | Zero hardcoded hosts — all microservices self-register with **Netflix Eureka** and pull environment configuration on startup from **Spring Cloud Config Server**. |
-| **⚡ Event-Driven Choreography** | **Order** and **Payment** state transitions publish domain events to **Apache Kafka**, triggering asynchronous **Delivery** assignment and **Notification** dispatch without tight coupling. |
-| **🔁 Fault-Tolerant Sync Calls** | Synchronous catalog checks between **Order Service** and **Restaurant Service** use declarative **OpenFeign** clients wrapped in **Resilience4j** circuit breakers and fallbacks. |
-| **📡 Real-Time Order Telemetry** | **Delivery Service** pushes live rider and order status updates directly to the **Angular 21** client over **WebSocket (STOMP)** channels. |
-| **💳 Production Payment Flow & Auditing** | Dedicated **Payment Service** integrates **Razorpay**, verifying payment signatures and persisting versioned schemas via **PostgreSQL + Flyway** migrations. |
-| **🔍 Full-Stack Observability & Testing** | End-to-end request correlation across service hops using **Micrometer Tracing + Zipkin**, paired with **Spring Boot Actuator** health probes and **JUnit 5 / Mockito** test coverage. |
+<!-- ═══════════════════════════ TELEMETRY & STATS ═══════════════════════════ -->
+### 📊 Live GitHub Telemetry
 
-&lt;details&gt;
-&lt;summary&gt;&lt;b&gt;⚡ Click to inspect how a single Order flows through QuickBite&#39;s 9 services&lt;/b&gt;&lt;/summary&gt;
-&lt;br/&gt;
+<div align="center">
 
-1. **Authenticate & Request:** The customer places an order from the **Angular 21 SPA**; **API Gateway** verifies the `Bearer` JWT token and forwards the request to **Order Service**.
-2. **Validate Menu Synchronous Check:** **Order Service** calls **Restaurant Service** via **OpenFeign** (guarded by a **Resilience4j** circuit breaker) to verify item availability and pricing.
-3. **Payment Handshake:** **Payment Service** creates a **Razorpay** order and verifies the payment signature upon completion, publishing a payment confirmation event to **Apache Kafka**.
-4. **Asynchronous Fan-Out:** **Apache Kafka** streams order & payment events to **Delivery Service** (to allocate a delivery partner) and **Notification Service** (to send instant confirmation).
-5. **Live Customer Push:** As the order status progresses (`CONFIRMED` → `PREPARING` → `OUT_FOR_DELIVERY` → `DELIVERED`), **Delivery Service** broadcasts real-time updates over **WebSocket (STOMP)** while **Zipkin** records the entire distributed trace.
+  <!-- Glowing Streak Counter -->
+  <a href="https://github.com/UDAY1810">
+    <img src="https://streak-stats.demolab.com/?user=UDAY1810&theme=tokyonight&hide_border=true&background=0D1117&ring=00F2FE&fire=00F2FE&currStreakLabel=00F2FE&sideLabels=36BCF7&dates=8B949E" alt="GitHub Streak" />
+  </a>
 
-&lt;/details&gt;
+  <br/><br/>
 
-&lt;img src=&quot;https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif&quot; width=&quot;100%&quot; alt=&quot;divider&quot; /&gt;
+  <!-- Stats Cards & Most Used Languages -->
+  <a href="https://github.com/UDAY1810">
+    <img src="https://github-readme-stats.vercel.app/api?username=UDAY1810&show_icons=true&include_all_commits=true&hide=stars,prs,issues&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F2FE&icon_color=00F2FE&text_color=C9D1D9&ring_color=00F2FE" height="170" alt="GitHub Stats" />
+  </a>
+  <a href="https://github.com/UDAY1810">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=UDAY1810&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F2FE&text_color=C9D1D9" height="170" alt="Top Languages" />
+  </a>
 
-&lt;!-- ═══════════════════════════ TELEMETRY &amp; GITHUB STATS ═══════════════════════════ --&gt;
+</div>
 
-## 📊 GitHub Telemetry & Contribution Pulse
+<!-- ═══════════════════════════ QUOTE & FOOTER ═══════════════════════════ -->
+<br/>
 
-&lt;div align=&quot;center&quot;&gt;
+<div align="center">
 
-&lt;!-- Streak Stats --&gt;
-&lt;img src=&quot;https://streak-stats.demolab.com/?user=UDAY1810&amp;theme=tokyonight&amp;hide_border=true&amp;background=0D1117&amp;ring=00F2FE&amp;fire=38BDF8&amp;currStreakLabel=00F2FE&amp;sideLabels=38BDF8&amp;dates=8B949E&amp;border_radius=10&quot; width=&quot;68%&quot; alt=&quot;GitHub Streak&quot; /&gt;
+  <!-- Animated Real-time Developer Quote -->
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dynamic Quote" />
 
-<br/><br/>
+  <br/><br/>
 
-&lt;!-- GitHub Stats &amp; Top Languages Side-by-Side --&gt;
-&lt;img src=&quot;https://github-readme-stats.vercel.app/api?username=UDAY1810&amp;show_icons=true&amp;include_all_commits=true&amp;hide=stars,prs,issues&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=00F2FE&amp;icon_color=38BDF8&amp;text_color=C9D1D9&amp;ring_color=00F2FE&amp;border_radius=10&quot; height=&quot;175&quot; alt=&quot;GitHub Stats&quot; /&gt;
-&lt;img src=&quot;https://github-readme-stats.vercel.app/api/top-langs/?username=UDAY1810&amp;layout=compact&amp;langs_count=6&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=00F2FE&amp;text_color=C9D1D9&amp;border_radius=10&quot; height=&quot;175&quot; alt=&quot;Top Languages&quot; /&gt;
+  <!-- Glowing Footer Wave -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=30,24,12,1&height=120&section=footer" width="100%" alt="Footer Wave" />
 
-<br/><br/>
+  <sub>⚡ <b>Zero Downtime • Infinite Scalability • Clean Architecture</b> ⚡</sub>
 
-&lt;!-- Activity Graph --&gt;
-&lt;img src=&quot;https://github-readme-activity-graph.vercel.app/graph?username=UDAY1810&amp;bg_color=0d1117&amp;color=38bdf8&amp;line=00f2fe&amp;point=ffffff&amp;area=true&amp;hide_border=true&amp;custom_title=Contribution%20Activity%20Graph&quot; width=&quot;95%&quot; alt=&quot;Activity Graph&quot; /&gt;
-
-&lt;/div&gt;
-
-&lt;!-- ═══════════════════════════ CONTRIBUTION SNAKE ═══════════════════════════ --&gt;
-&lt;!-- Requires the snake GitHub Action in UDAY1810/UDAY1810 (.github/workflows/snake.yml) --&gt;
-&lt;div align=&quot;center&quot;&gt;
-  &lt;picture&gt;
-    &lt;source media=&quot;(prefers-color-scheme: dark)&quot; srcset=&quot;https://raw.githubusercontent.com/UDAY1810/UDAY1810/output/github-snake-dark.svg&quot; /&gt;
-    &lt;source media=&quot;(prefers-color-scheme: light)&quot; srcset=&quot;https://raw.githubusercontent.com/UDAY1810/UDAY1810/output/github-snake.svg&quot; /&gt;
-    &lt;img alt=&quot;Contribution snake&quot; src=&quot;https://raw.githubusercontent.com/UDAY1810/UDAY1810/output/github-snake-dark.svg&quot; width=&quot;100%&quot; /&gt;
-  &lt;/picture&gt;
-&lt;/div&gt;
-
-&lt;img src=&quot;https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif&quot; width=&quot;100%&quot; alt=&quot;divider&quot; /&gt;
-
-&lt;!-- ═══════════════════════════ CONNECT &amp; FOOTER ═══════════════════════════ --&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-
-### 🤝 Let's Build High-Scale Systems Together
-
-*Always excited to collaborate on **Java / Spring Boot Microservices**, **Event-Driven Architectures**, and **Backend Engineering** opportunities.*
-
-&lt;a href=&quot;mailto:mrdubey7717@gmail.com&quot;&gt;
-  &lt;img src=&quot;https://img.shields.io/badge/Shoot_Me_An_Email-mrdubey7717%40gmail.com-00F2FE?style=for-the-badge&amp;logo=gmail&amp;logoColor=white&amp;labelColor=0d1117&quot; alt=&quot;Email Me&quot; /&gt;
-&lt;/a&gt;
-&lt;a href=&quot;https://github.com/UDAY1810/quickbite&quot;&gt;
-  &lt;img src=&quot;https://img.shields.io/badge/Star_Featured_Project-%E2%AD%90_QuickBite-F59E0B?style=for-the-badge&amp;logo=github&amp;logoColor=white&amp;labelColor=0d1117&quot; alt=&quot;Star QuickBite&quot; /&gt;
-&lt;/a&gt;
-
-<br/><br/>
-
-&lt;img src=&quot;https://quotes-github-readme.vercel.app/api?type=horizontal&amp;theme=tokyonight&quot; alt=&quot;Dev Quote&quot; /&gt;
-
-&lt;img src=&quot;https://capsule-render.vercel.app/api?type=waving&amp;color=0:00f2fe,45:1e3a8a,100:070913&amp;height=120&amp;section=footer&quot; width=&quot;100%&quot; alt=&quot;Footer Wave&quot; /&gt;
-
-&lt;/div&gt;
+</div>
