@@ -360,59 +360,34 @@ public class PaymentVerifiedKafkaConsumer {
 ### 🗺️ System Architecture Topology
 
 ```mermaid
-flowchart TB
-    subgraph Client["🌐 Client Layer"]
-        UI["🖥️ Angular 21 SPA<br/>(Reactive Store · JWT Interceptor · STOMP Client)"]
-    end
+flowchart LR
+    UI["🖥️ Angular 21 SPA"] -->|HTTPS + JWT| GW["🛡️ API Gateway (WebFlux)"]
+    UI <-.->|STOMP WebSocket| DEL["🛵 Delivery Service"]
 
-    subgraph Edge["🛡️ Edge & Control Plane"]
-        GW["⚡ Spring Cloud Gateway<br/>(WebFlux · JWT Auth Filter · Route Predicates)"]
-        EUR["🧭 Netflix Eureka<br/>(Dynamic Service Registry)"]
-        CFG["⚙️ Config Server<br/>(Centralized Git/Native Profiles)"]
-        ZIP["🔍 Micrometer + Zipkin<br/>(Distributed Trace Collector)"]
-    end
+    GW --> USR["👤 User Service"]
+    GW --> RES["🍽️ Restaurant Service"]
+    GW --> ORD["🧾 Order Service"]
+    GW --> PAY["💳 Payment Service"]
+    GW --> DEL
 
-    subgraph Core["🧩 Domain Microservices (Java 21 + Spring Boot 3)"]
-        USR["👤 User Service<br/>(Identity · BCrypt · JWT Issuance)"]
-        RES["🍽️ Restaurant Service<br/>(Catalogs · Menus · Availability)"]
-        ORD["🧾 Order Service<br/>(Order State Machine · OpenFeign + Resilience4j)"]
-        PAY["💳 Payment Service<br/>(Razorpay Orders · HMAC Signature Verification)"]
-        DEL["🛵 Delivery Service<br/>(Rider Allocation · STOMP WebSocket Broker)"]
-        NOT["📧 Notification Service<br/>(Event-Driven Email & Push Alerts)"]
-    end
+    ORD -->|OpenFeign + Resilience4j| RES
 
-    subgraph Backbone["⚡ Event & Persistence Layer"]
-        K[("🔥 Apache Kafka Broker<br/>(orders.v1 · payments.v1 · delivery.v1)")]
-        DB[("🐘 PostgreSQL + Flyway<br/>(Isolated Database-per-Service Schemas)")]
-    end
+    ORD -.->|OrderCreatedEvent| K[("⚡ Apache Kafka")]
+    PAY -.->|PaymentVerifiedEvent| K
+    K -.->|Consume Events| DEL
+    K -.->|Consume Events| NOT["📧 Notification Service"]
+    K -.->|Consume Events| ORD
 
-    UI ==>|HTTPS REST + Bearer JWT| GW
-    UI <-.->|Live Order Telemetry (STOMP / WS)| DEL
+    EUR["🧭 Eureka Registry"] ~~~ CFG["⚙️ Config Server"] ~~~ ZIP["🔍 Zipkin Tracing"]
+    USR & RES & ORD & PAY & DEL --> DB[("🐘 PostgreSQL + Flyway")]
 
-    GW --> USR & RES & ORD & PAY & DEL
-    ORD -->|Sync Feign + CircuitBreaker| RES
-
-    ORD -.->|Publish OrderCreated| K
-    PAY -.->|Publish PaymentVerified| K
-    K -.->|Consume Domain Events| DEL & NOT & ORD
-
-    USR & RES & ORD & PAY & DEL --> DB
-    Core -.->|Heartbeat & Lookup| EUR
-    Core -.->|Fetch Config| CFG
-    Core -.->|Export Trace Spans| ZIP
-
-    classDef client fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#fff
-    classDef edge fill:#1e1b4b,stroke:#00f2fe,stroke-width:2px,color:#fff
-    classDef domain fill:#052e16,stroke:#4ade80,stroke-width:1.5px,color:#fff
-    classDef infra fill:#27120b,stroke:#fb923c,stroke-width:2px,color:#fff
-
-    class UI client
-    class GW,EUR,CFG,ZIP edge
-    class USR,RES,ORD,PAY,DEL,NOT domain
-    class K,DB infra
-```
-
-### 🔄 End-to-End Distributed Order Saga Sequence
+    classDef edge fill:#1d4ed8,stroke:#00f2fe,stroke-width:2px,color:#fff
+    classDef svc fill:#0f172a,stroke:#4ade80,stroke-width:1.5px,color:#fff
+    classDef infra fill:#1e1b4b,stroke:#fb923c,stroke-width:2px,color:#fff
+    class UI,GW edge
+    class USR,RES,ORD,PAY,DEL,NOT svc
+    class K,DB,EUR,CFG,ZIP infra
+```### 🔄 End-to-End Distributed Order Saga Sequence
 
 ```mermaid
 sequenceDiagram
