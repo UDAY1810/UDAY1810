@@ -1,10 +1,10 @@
 <!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6a11cb,50:2575fc,100:00d2ff&height=230&section=header&text=Uday%20Dubey&fontSize=72&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=Backend%20Engineer%20%E2%80%A2%20Java%20%E2%80%A2%20Spring%20Boot%20%E2%80%A2%20Microservices&descSize=20&descAlignY=58" width="100%" alt="Uday Dubey header" />
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f0c29,45:302b63,100:00d2ff&height=280&section=header&text=%3C%2F%3E%20Backend%20Engineer&fontSize=58&fontColor=ffffff&fontAlignY=40&stroke=00d2ff&strokeWidth=1&animation=twinkling&desc=Java%20%E2%80%A2%20Spring%20Boot%20%E2%80%A2%20Kafka%20%E2%80%A2%20Microservices&descSize=20&descAlignY=62" width="100%" alt="Backend Engineer header" />
 
 <a href="https://github.com/UDAY1810">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=3000&pause=800&color=36BCF7&center=true&vCenter=true&width=720&lines=%E2%98%95+Java+21+%2B+Spring+Boot+Backend+Engineer;%E2%9A%A1+Event-driven+microservices+with+Apache+Kafka;%F0%9F%A7%AD+Eureka+%C2%B7+Gateway+%C2%B7+Config+Server+%C2%B7+OpenFeign;%F0%9F%9B%A1%EF%B8%8F+JWT+security+%C2%B7+Resilience4j+%C2%B7+Zipkin+tracing;%F0%9F%8D%94+Currently+shipping+%E2%86%92+QuickBite" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=3000&pause=800&color=36BCF7&center=true&vCenter=true&width=720&lines=%E2%98%95+Designing+backends+that+scale;%E2%9A%A1+Event-driven+microservices+with+Apache+Kafka;%F0%9F%A7%AD+Eureka+%C2%B7+Gateway+%C2%B7+Config+Server+%C2%B7+OpenFeign;%F0%9F%9B%A1%EF%B8%8F+JWT+security+%C2%B7+Resilience4j+%C2%B7+Zipkin+tracing;%F0%9F%8D%94+Currently+shipping+%E2%86%92+QuickBite" alt="Typing animation" />
 </a>
 
 <br/>
@@ -23,7 +23,7 @@
 ## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28" alt="wave" /> About Me
 
 ```java
-public class UdayDubey extends SoftwareEngineer {
+public final class Developer implements Scalable, Resilient {
 
     String   role          = "Backend Engineer";
     String[] languages     = { "Java 21", "TypeScript", "SQL" };
