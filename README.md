@@ -387,40 +387,7 @@ flowchart LR
     class UI,GW edge
     class USR,RES,ORD,PAY,DEL,NOT svc
     class K,DB,EUR,CFG,ZIP infra
-```### 🔄 End-to-End Distributed Order Saga Sequence
-
-```mermaid
-sequenceDiagram
-    autonumber
-    actor C as 👤 Customer (Angular 21)
-    participant GW as 🛡️ API Gateway
-    participant ORD as 🧾 Order Service
-    participant RES as 🍽️ Restaurant Service
-    participant PAY as 💳 Payment Service (Razorpay)
-    participant K as ⚡ Apache Kafka
-    participant DEL as 🛵 Delivery Service (WS)
-    participant NOT as 📧 Notification Service
-
-    C->>GW: POST /api/v1/orders (Bearer JWT)
-    GW->>GW: Validate JWT & inject X-Authenticated-User-Id
-    GW->>ORD: Forward Order Placement Request
-    ORD->>RES: OpenFeign validateAndPriceItems() [Resilience4j CB]
-    RES-->>ORD: 200 OK (Verified Pricing & Availability)
-    ORD->>ORD: Save Order (Status = PENDING_PAYMENT) + Flyway Schema
-    ORD-->>C: 201 Created (orderId, payableAmount)
-    C->>PAY: Initiate & Complete Razorpay Checkout
-    PAY->>PAY: Verify HMAC-SHA256 Razorpay Signature
-    PAY--)K: Publish PaymentVerifiedEvent (key = orderId)
-    par Async Choreography Fan-Out
-        K--)ORD: Transition Order -> CONFIRMED
-    and
-        K--)DEL: Allocate Rider & Start Delivery Lifecycle
-    and
-        K--)NOT: Dispatch Order & Payment Receipt
-    end
-    DEL-->>C: Push STOMP Frame (/topic/orders/{id}/tracking)
 ```
-
 ### 🗂️ Complete 9-Microservice Breakdown
 
 | # | Microservice | Primary Responsibility | Key Stack & Patterns |Persistence / Broker |
