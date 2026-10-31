@@ -639,11 +639,6 @@ stateDiagram-v2
 
 <div align="center">
 
-<!-- GitHub Trophies Row -->
-<img src="https://github-profile-trophy.vercel.app/?username=UDAY1810&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" width="96%" alt="GitHub Trophies" />
-
-<br/><br/>
-
 <!-- Streak Stats -->
 <img src="https://streak-stats.demolab.com/?user=UDAY1810&theme=tokyonight&hide_border=true&background=0D1117&ring=00F2FE&fire=38BDF8&currStreakLabel=00F2FE&sideLabels=38BDF8&dates=8B949E&border_radius=10" width="68%" alt="GitHub Streak" />
 
@@ -655,28 +650,22 @@ stateDiagram-v2
 
 <br/><br/>
 
-<!-- Summary Cards: Profile Details & Commit Breakdown -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=UDAY1810&theme=tokyonight" width="62%" alt="Profile Summary" />
+<!-- Summary Cards: Profile Details (with Activity Graph) & Language Breakdown -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=UDAY1810&theme=tokyonight" width="62%" alt="Profile Summary & Activity Graph" />
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=UDAY1810&theme=tokyonight" width="34%" alt="Repos per Language" />
 
 <br/><br/>
 
-<!-- Full-Width Contribution Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=UDAY1810&bg_color=0d1117&color=38bdf8&line=00f2fe&point=ffffff&area=true&hide_border=true&custom_title=UDAY1810%20%E2%80%94%20Contribution%20Activity%20Telemetry" width="96%" alt="Activity Graph" />
+<!-- Productive Time (IST) & Most-Commit Language Cards -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=UDAY1810&theme=tokyonight&utcOffset=5.5" width="48%" alt="Productive Time" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=UDAY1810&theme=tokyonight" width="48%" alt="Most Commit Language" />
+
+<br/><br/>
+
+<!-- Live Contribution Calendar Chart (Works immediately with no GitHub Action needed) -->
+<img src="https://ghchart.rshah.org/00f2fe/UDAY1810" width="94%" alt="UDAY1810 Contribution Calendar" />
 
 </div>
-
-<!-- Requires the snake GitHub Action in UDAY1810/UDAY1810 (.github/workflows/snake.yml) -->
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/UDAY1810/UDAY1810/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UDAY1810/UDAY1810/output/github-snake.svg" />
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/UDAY1810/UDAY1810/output/github-snake-dark.svg" width="100%" />
-</picture>
-</div>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" alt="divider" />
-
 <!-- ============================================================================ -->
 <!--                  08. CONNECT & FOOTER                                        -->
 <!-- ============================================================================ -->
